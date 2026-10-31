@@ -1,0 +1,52 @@
+:root {
+  color-scheme: dark;
+
+  /* Palette: near-black base, bold amber primary accent, cyan secondary (used sparingly) */
+  --bg: #0b0e14;
+  --surface: #121621;
+  --surface-raised: #1a2030;
+  --border: #232b3a;
+  --border-strong: #323c50;
+  --text: #f2f4f8;
+  --text-secondary: #a9b2c3;
+  --text-muted: #868ea2;
+  --accent: #ffb224; /* amber: links, buttons, highlights */
+  --accent-contrast: #0b0e14; /* text sitting on amber */
+  --accent-soft: rgba(255, 178, 36, 0.12);
+  --accent-2: #22d3ee; /* cyan: role badges and small secondary marks only */
+  --accent-2-soft: rgba(34, 211, 238, 0.12);
+  --accent-2-contrast: #0b0e14;
+
+  /* Type */
+  --font-display: 'Space Grotesk Variable', 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter Variable', 'Inter', system-ui, sans-serif;
+
+  /* Fluid type scale */
+  --text-hero: clamp(2.5rem, 4.5vw + 1rem, 3.75rem);
+  --text-h2: clamp(1.7rem, 2.5vw + 0.6rem, 2.25rem);
+  --text-h3: clamp(1.15rem, 1vw + 0.6rem, 1.35rem);
+  --text-body: 1rem;
+  --text-small: 0.9rem;
+  --text-micro: 0.8rem;
+
+  /* Spacing (4px scale) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+
+  /* Radii rule: cards 14px, interactive elements pill */
+  --radius-card: 14px;
+  --radius-pill: 999px;
+
+  /* Shadows tinted to the bg hue, never pure black */
+  --shadow-lift: 0 10px 30px rgba(5, 8, 14, 0.55), 0 2px 8px rgba(5, 8, 14, 0.4);
+
+  /* Layout */
+  --container: 1100px;
+}
