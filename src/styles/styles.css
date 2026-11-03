@@ -597,3 +597,54 @@ h3 {
   font-size: var(--text-hero);
   color: var(--accent);
 }
+
+/* Certificates & badges */
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--s-4);
+}
+
+.cert-card {
+  padding: var(--s-5);
+}
+
+.cert-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+}
+
+.cert-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding-block: var(--s-3);
+}
+
+.cert-row + .cert-row {
+  border-top: 1px solid var(--border);
+}
+
+.cert-main {
+  display: grid;
+  gap: 2px;
+}
+
+.cert-name {
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.cert-issuer {
+  color: var(--text-muted);
+  font-size: var(--text-micro);
+}
+
+.cert-verify {
+  color: var(--accent);
+  font-size: var(--text-micro);
+  white-space: nowrap;
+}
