@@ -109,7 +109,7 @@ h3 {
 }
 
 .btn-primary:hover {
-  background: #ffc14a;
+  background: #ff4a24;
 }
 
 .btn-ghost {
@@ -194,7 +194,7 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(11, 14, 20, 0.85);
+  background: rgba(3, 4, 94, 0.85);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }

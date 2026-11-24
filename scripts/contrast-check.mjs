@@ -35,12 +35,12 @@ const pairs = [
   ['text-muted', 'bg', 'muted text on page'],
   ['text-muted', 'surface', 'muted text on cards'],
   ['text-muted', 'surface-raised', 'muted text on raised surfaces'],
-  ['accent', 'bg', 'amber links on page'],
-  ['accent', 'surface', 'amber links on cards'],
-  ['accent-contrast', 'accent', 'text on amber buttons'],
-  ['accent-2', 'bg', 'cyan accents on page'],
-  ['accent-2', 'surface', 'cyan accents on cards'],
-  ['accent-2-contrast', 'accent-2', 'text on cyan badges'],
+  ['accent', 'bg', 'accent links on page'],
+  ['accent', 'surface', 'accent links on cards'],
+  ['accent-contrast', 'accent', 'text on accent buttons'],
+  ['accent-2', 'bg', 'secondary accents on page'],
+  ['accent-2', 'surface', 'secondary accents on cards'],
+  ['accent-2-contrast', 'accent-2', 'text on secondary badges'],
 ];
 
 let failures = 0;
