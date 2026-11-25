@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#CDC8B1"/>
+  <rect x="6.5" y="6.5" width="51" height="51" fill="none" stroke="#454238"/>
+  <rect x="10" y="10" width="5" height="5" fill="#B24A31"/>
+  <text x="32" y="41" font-family="Jost, Arial, sans-serif" font-size="22" font-weight="500" fill="#454238" text-anchor="middle" letter-spacing="1">SA</text>
+</svg>
